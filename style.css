@@ -1,0 +1,20 @@
+#container{
+	overflow: hidden;
+	position: relative;
+	width: 1250px;
+	height: 975px;
+}
+#container .resizer{
+	background: #999;
+	cursor: e-resize;
+}
+.block{
+	cursor: move;
+}
+.selected{
+	
+	background: #900;
+}
+.unselected{
+	background: #ccc;
+}
